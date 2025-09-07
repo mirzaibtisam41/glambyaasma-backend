@@ -1,5 +1,5 @@
 import slugify from 'slugify';
-import Category from '../models/Category.js';
+import Category from '../models/category.js';
 
 export const createCategoryService = async (name) => {
   try {
