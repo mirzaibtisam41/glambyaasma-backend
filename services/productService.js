@@ -1,5 +1,5 @@
 import cloudinary from '../config/cloudinary.js';
-import Product from '../models/Product.js';
+import Product from '../models/product.js';
 
 export const uploadImage = async (fileBuffer, folder) => {
   try {
